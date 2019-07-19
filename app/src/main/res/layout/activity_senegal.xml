@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".senegal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="SENEGAL"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="179dp"
+            android:src="@drawable/senagal" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FDFDFD">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="Coach"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:paddingLeft="5dp"
+                            android:text="ALIOU CISSE"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="Goal Keepers"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="ABDOULAYE DIALLO"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="GOMIS"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="NDIAYE"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="Defenders"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="GASSAMA"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="SALIOU CISS"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="KOULIBALY"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="MBODJI"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="SABALY"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="SANE"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="TRAORE"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="WAGUE"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="Mid Fielders"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="GUEYE"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="KOUYATE"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="PAPE ALIOUNE NDIAYE"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="CHEIKH N'DOYE"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+
+
+
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="Forwards"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="BALDE KEITA"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="SARR"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="KONATE"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="SADIO MANE"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="NIANG"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+                        <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:paddingLeft="5dp"
+                        android:text="SAKHO"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+                        <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:paddingLeft="5dp"
+                        android:text="MAME BIRAM DIOUF"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

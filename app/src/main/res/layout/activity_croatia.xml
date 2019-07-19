@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".croatia">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="CROATIA"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="179dp"
+            android:src="@drawable/craotia" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FDFDFD">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="Coach"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:paddingLeft="5dp"
+                            android:text="ZLATCO DALIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="Goal Keepers"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="DANIJEL SUBASIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="LOVRE KALINIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="DOMINIK LIVAKOVIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="Defenders"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="VEDRAN CORLUKA"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="DOMAGOJ VIDA"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="IVAN STRINIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="DEJAN LOVREN"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="SIME VRSALJKO"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="JOSIP PIVARIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="TIN JEDVAJ"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="DUJE CALETA-CAR"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="Mid Fielders"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="LUKA MODRIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="MATEO KOVACIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="IVAN RAKITIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="MILAN BADELJ"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="MARCELO BROZOVIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="FILIP BRADARIC "
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="Forwards"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="MARIO MANDZUKIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="IVAN PERISIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="NIKOLA KALINIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="ANDREJ KRAMARIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="MARKO PJACA"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="5dp"
+                            android:text="ANTE REBIC"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

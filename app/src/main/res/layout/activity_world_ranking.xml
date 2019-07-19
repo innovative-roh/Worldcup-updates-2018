@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WorldRanking"
+    android:background="@drawable/wall2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@android:color/transparent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="1"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="2"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="3"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="4"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="6"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="7"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="8"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="10"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="11"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="12"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="13"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="14"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="15"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="16"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="17"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="18"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="22"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="23"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="25"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="28"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="35"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="36"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="40"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="42"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="46"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="47"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="55"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="60"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="61"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="66"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="67"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="GERMANY"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="BRAZIL"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="BELGIUM"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="PORTUGAL"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="ARGENTINA"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="SWITZERLAND"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="FRANCE"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="SPAIN"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="POLAND"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="PERU"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="DENMARK"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="ENGLAND"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="TUNISIA"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="MEXICO"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="COLOMBIA"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="URUGUAY"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="CROATIA"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="ICELAND"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="SWEDEN"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="COSTA RICA"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="SENEGAL"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="SERBIA"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="IRAN"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="AUSTRALIA"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="MOROCCO"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="EGYPT"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="NIGERIA"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="PANAMA"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="JAPAN"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="KOREA REPUBLIC"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="RUSSIA"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="SAUDI ARABIA"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+
+</LinearLayout>

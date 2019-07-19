@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_squad"
+        android:icon="@drawable/squad"
+        android:title="Squad" />
+
+    <item
+        android:id="@+id/navigation_calendar"
+        android:icon="@drawable/ic_event_black_24dp"
+        android:title="Match Calendar" />
+
+    <item
+        android:id="@+id/navigation_score"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Score card" />
+
+
+
+
+
+
+</menu>

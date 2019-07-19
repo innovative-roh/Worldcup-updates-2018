@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "781795400950",
+    "firebase_url": "https://worldcup-updates.firebaseio.com",
+    "project_id": "worldcup-updates",
+    "storage_bucket": "worldcup-updates.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781795400950:android:1cfd9e30ebf5efe1",
+        "android_client_info": {
+          "package_name": "worldcup.fifa2018.worldcupupdates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781795400950-b0t7a8vbmd1mcrrhfgejr6d82osnlo87.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "781795400950-b0t7a8vbmd1mcrrhfgejr6d82osnlo87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy-bm8LDR3eafqPWNLYgyMF_Xh1BI7JWs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

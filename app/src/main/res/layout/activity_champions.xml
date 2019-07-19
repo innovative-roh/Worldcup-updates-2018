@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".champions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/champion"
+            android:layout_margin="5dp"
+            android:onClick="world"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="WORLD CHAMPION"
+            android:background="#22742e"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/boot"
+            android:onClick="golden"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#33B747"
+            android:gravity="center"
+            android:text="GOLDEN BOOT"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/worldchampion"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:background="#ebedef"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".3"
+                    android:gravity="center"
+                    android:text="Year"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:text="Host"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:text="World Champion"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="2014"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/brazil" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="Brazil"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Germany"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="2010"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/south_africa" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="South Africa"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Spain"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout><LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight=".3"
+                        android:gravity="center"
+                        android:text="2006"
+                        android:textColor="@android:color/black" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight=".5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="38dp"
+                            android:layout_weight=".1"
+                            android:gravity="center"
+                            android:paddingTop="10dp"
+                            android:src="@drawable/germany" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".2"
+                            android:gravity="left"
+                            android:paddingTop="12dp"
+
+                            android:text="Germany"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="38dp"
+                            android:layout_weight=".1"
+                            android:gravity="center"
+                            android:paddingTop="10dp"
+                            android:src="@drawable/cup" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".3"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="2dp"
+                            android:text="Italy"
+                            android:textColor="@android:color/black" />
+                    </LinearLayout>
+                </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="2002"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/korea" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="8dp"
+
+                                android:text="Japan and South Korea"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Brazil"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1998"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/france" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="France"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="France"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1994"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/united_states" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="United States"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Brazil"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1990"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/italy" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="Italy"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="West Germany"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1986"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/mexico" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="Mexico"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Argentina"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1982"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/spain" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="Spain"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Italy"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1978"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/argentina" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="Argentina"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Argentina"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1974"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/germany" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="Germany"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Germany"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1970"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/mexico" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="Mexico"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Brazil"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1966"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/england" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="England"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="England"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1962"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/chile" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="Chile"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Brazil"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1958"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/sweden" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="Sweden"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Brazil"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1954"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/switzerland" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="Switzerland"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Germany"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1950"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/brazil" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="Brazil"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Uruguay"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1938"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/france" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="France"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Italy"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1934"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/italy" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="Italy"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Italy"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="1930"
+                            android:textColor="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="1dp"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/uruguay" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".2"
+                                android:gravity="left"
+                                android:paddingTop="12dp"
+
+                                android:text="Uruguay"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="38dp"
+                                android:layout_weight=".1"
+                                android:gravity="center"
+                                android:paddingTop="10dp"
+                                android:src="@drawable/cup" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="2dp"
+                                android:text="Uruguay"
+                                android:textColor="@android:color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/goldenboot"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:background="#ebedef"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:paddingLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:paddingTop="5dp"
+                    android:text="Year"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:paddingTop="5dp"
+                    android:text="Player"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:paddingTop="5dp"
+                    android:gravity="center"
+                    android:text="Goal"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text="2014"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:text="James Rodriguez - COL"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight=".2"
+                    android:text="6"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text="2010"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:text="Thomas Muller - GER"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text="2006"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:text="Miroslav Klose - GER"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight=".2"
+                    android:text="5"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text="2002"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:text="Ronaldo - BRA"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight=".2"
+                    android:text="8"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text="1998"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:text="Davor Sukur - CRO"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight=".2"
+                    android:text="6"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text="1994"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:paddingTop="2dp"
+                    android:text="Oleg Salenko-RUS, Christo Stoitschkow-BUL"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight=".2"
+                    android:text="6"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text="1990"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:text="Salvatore Schillaci - ITA"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight=".2"
+                    android:text="6"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text="1986"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:text="Gary Linekar - ENG"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight=".2"
+                    android:text="6"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text="1982"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:text="Paolo Rossi - ITA"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight=".2"
+                    android:text="6"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text="1978"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:text="Mario Kempes - ARG"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight=".2"
+                    android:text="6"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
